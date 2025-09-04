@@ -1,0 +1,11 @@
+name: FallingLeaves
+version: '${project.version}'
+main: dev.silentbit.fallingLeaves.FallingLeaves
+api-version: '1.21'
+author: 'Naruto99'
+description: Adds realistic falling leaves to Minecraft trees
+commands:
+  fallingleaves:
+    description: Main command for FallingLeaves plugin
+    usage: /<command> [reload|toggle]
+    permission: fallingleaves.admin

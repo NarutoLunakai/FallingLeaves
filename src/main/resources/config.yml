@@ -1,0 +1,25 @@
+# FallingLeaves Configuration
+
+# Radius around player to check for leaves (in blocks)
+radius: 20
+
+# Number of particles to spawn per tree (chance out of 100)
+particles-per-tree: 3
+
+# Enable particle effects in worlds
+enabled-in-worlds: true
+
+# Enable debug logging
+debug: false
+
+# Particle Settings
+particles:
+  oak:
+    enabled: true
+    color: "GREEN"
+  birch:
+    enabled: true
+    color: "YELLOW"
+  spruce:
+    enabled: true
+    color: "DARK_GREEN"
